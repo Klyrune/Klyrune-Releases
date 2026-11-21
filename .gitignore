@@ -1,0 +1,9 @@
+# Prevent committing release binaries/archives into Git history.
+# Release files must be published only as GitHub Release assets.
+*.exe
+*.zip
+*.7z
+*.msi
+*.msix
+*.sha256
+SHA256SUMS.txt

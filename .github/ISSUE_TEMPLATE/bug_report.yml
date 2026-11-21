@@ -1,0 +1,46 @@
+name: Сообщить об ошибке (Bug Report)
+description: Сообщить о некорректной работе Klyrune
+title: "[Bug]: "
+labels: ["type: bug", "status: needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за обратную связь! Пожалуйста, не прикладывайте личные файлы, чувствительные пути или лицензионные токены.
+  - type: input
+    id: version
+    attributes:
+      label: Версия Klyrune
+      placeholder: "например, v0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Версия Windows
+      placeholder: "например, Windows 11 24H2 x64"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание проблемы
+      description: Что пошло не так?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+      placeholder: |
+        1. Открыть раздел ...
+        2. Запустить ...
+        3. Наблюдается ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое поведение
+    validations:
+      required: true

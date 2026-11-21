@@ -1,0 +1,26 @@
+name: Предложение по улучшению (Feature Request)
+description: Предложить новую возможность или улучшение Klyrune
+title: "[Feature]: "
+labels: ["type: feature", "status: needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую задачу это решает?
+      description: Опишите сценарий использования.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Предлагаемое решение
+      description: Как, по вашему мнению, это должно работать с учётом безопасности данных?
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Возможные риски и ограничения
+      description: Есть ли сценарии, где это может быть небезопасно?
+    validations:
+      required: false
