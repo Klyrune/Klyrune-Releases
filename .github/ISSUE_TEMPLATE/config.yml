@@ -2,4 +2,4 @@ blank_issues_enabled: false
 contact_links:
   - name: Сообщить об уязвимости безопасности
     url: https://github.com/Klyrune/Klyrune-Releases/blob/main/SECURITY.md
-    about: Не открывайте публичный Issue для проблем безопасности — следуйте инструкции в SECURITY.md
+    about: Не открывайте публичный Issue для проблем безопасности - следуйте инструкции в SECURITY.md
