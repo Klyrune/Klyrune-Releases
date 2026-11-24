@@ -24,6 +24,7 @@ Get-FileHash .\Klyrune-Windows-x64-vX.Y.Z.zip -Algorithm SHA256
 
 ## Обратная связь и сообщения об ошибках
 
+- **Официальный сайт:** [klyrune.tech](https://klyrune.tech)
 - Об ошибках и предложениях по улучшению сообщайте через **[Issues](https://github.com/Klyrune/Klyrune-Releases/issues/new/choose)**.
 - Пожалуйста, не прикладывайте к публичным Issues конфиденциальные данные, персональные файлы или токены лицензий.
 - Об уязвимостях безопасности сообщайте строго по инструкции из [SECURITY.md](./SECURITY.md).

@@ -9,7 +9,7 @@
 Если вы обнаружили проблему безопасности (ошибку защиты системных путей, проблему карантина, обход проверок, уязвимость лицензирования или проблему целостности релизных сборок):
 
 1. Используйте GitHub Private Vulnerability Reporting (вкладка **Security -> Advisories -> Report a vulnerability**), если функция включена.
-2. Или напишите на `community@klyrune.clean` с темой `[Security] Klyrune`.
+2. Или напишите на `community@klyrune.tech` с темой `[Security] Klyrune`.
 
 Укажите:
 - версию Klyrune и сборку Windows 10/11;
